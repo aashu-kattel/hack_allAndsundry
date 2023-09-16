@@ -1,20 +1,10 @@
 ## Hacktober Repo for allandsundry
 
 
-
-
-## Authors
-
-- [@aashu-kattel](https://www.github.com/aashu-kattel)
-
-
-
 ## Contributing
 
 Both code and non-code contributions are welcome!
 
-
-
 ## Don't forget to star⭐🌟 the repo.
-# Time to hack out four pristine pull/merge requests as we continue our month of support for open source.
 
+<a href="https://discord.gg/tx6udrbqaN" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="tx6udrbqaN" height="30" width="40" /></a>👈 Join discord community.
