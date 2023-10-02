@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double number, squareRoot;
+
+    // Input
+    std::cout << "Enter a number: ";
+    std::cin >> number;
+
+    // Calculate square root
+    if (number >= 0) {
+        squareRoot = sqrt(number);
+        std::cout << "Square root of " << number << " is: " << squareRoot << std::endl;
+    } else {
+        std::cout << "Cannot calculate the square root of a negative number." << std::endl;
+    }
+
+    return 0;
+}
