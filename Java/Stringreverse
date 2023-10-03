@@ -1,0 +1,24 @@
+public class ReverseString {
+    public static void main(String[] args) {
+        String input = "HACKTOBERFEST2023";
+
+        // Method 1: Using StringBuilder
+        String reversed1 = new StringBuilder(input).reverse().toString();
+        System.out.println("Reversed using StringBuilder: " + reversed1);
+
+        // Method 2: Using a character array
+        char[] inputChars = input.toCharArray();
+        int start = 0;
+        int end = inputChars.length - 1;
+        while (start < end) {
+            // Swap characters at start and end positions
+            char temp = inputChars[start];
+            inputChars[start] = inputChars[end];
+            inputChars[end] = temp;
+            start++;
+            end--;
+        }
+        String reversed2 = new String(inputChars);
+        System.out.println("Reversed manually: " + reversed2);
+    }
+}
